@@ -1,0 +1,162 @@
+@media only screen and (max-width:900px){
+        .header-logo ul li.logo-text {
+            width: 80%;
+            height:80px;
+            margin-top: -30px;
+        }
+        
+      /**footer**/
+        footer.footer-main .footer-top {
+            width: 100%;
+            position: relative;
+            height: 180px;
+            background-image: url(../gallery/icon/background.png);
+        }   
+        .footer-img {
+            width: 90%;
+        }
+        .footer-mxh ul li {
+            width: 10% !important;
+        }
+        .footer-main .footer-top .footer-img {
+            position: absolute;
+            top: -17px;
+        }
+        .footer-main .footer-top input.input-email {
+            height: 40px;
+            width: 70%;
+        }
+        .footer-img img {
+            width: 100%;
+            height: 100%;
+            right: 10px !important;
+            left: -3px;
+        }
+        .col-md-6.footer-box-right {
+            margin: 65px 0 0 0;
+        }
+        input.btn.btn-register {
+            background: #ffc800;
+            color: #fff;
+            height: 40px;
+            border: 0;
+            margin: -3px 0 0 0;
+            margin-left: 3px;
+            width: 23%;
+            font-size: 17px;
+        }
+        
+        /**header**/
+        header.header-main {
+            height: 170px;
+            background: #fa6900 !important;
+        }
+        nav.header-bottom .mega-menu-list {
+            position: relative;
+            display: none;
+        }
+        nav.header-bottom {
+            height: 0px;
+            display: block;
+        }  
+        .wide-nav {
+            display:block !important;
+            background: #000;
+            height: 2000px !important;
+            position:absolute !important;
+            top: 0px;
+            width:280px !important;
+            z-index:9999999;
+            padding-top: 44px;
+            margin-left:-280px !important;
+            transition:0.5 ease all;
+        }
+        .wide-display{
+             transition:0.5 ease all;
+              display:block !important;
+              margin-left:0px !important;
+        }
+        .wide-hide{
+            display:none !important;
+        }
+        .wide-nav ul li{
+              float:none !important;
+              border-bottom: 1px solid;
+
+        }
+        .wide-nav ul li:last-child{
+              border-bottom:none !important;
+        }
+        .wide-nav ul li.li-store{
+            display: none !important;
+        }
+        .wide-nav ul li a{
+              display:block !important;
+              text-align:left !important;
+        }
+
+        .exit {
+            display: block;
+            color: #000;
+            font-size: 20px;
+            position: absolute;
+            top: 0px;
+            right: 22px;
+            height: 28px;
+            width: 10%;
+            text-align: center;
+            background: #fff;
+            border-radius: 50%;
+            top: 20px;
+            line-height: 28px;
+            font-weight: 700;
+        }
+        /**menu**/
+        .header-logo ul li.menu-bars {
+            display: block;
+            color: #fff;
+            font-size: 18px;
+            text-align:center;
+            display: block;
+            width: 10% !important;
+            margin-left: 0px !important;
+            margin-top: 40px;
+        }
+        .header-logo ul li.store-icon {
+            display: block;
+            color: #fff;
+            font-size: 18px;
+            text-align:center;
+            display: block;
+            width: 10% !important;
+            margin-left: 0px !important;
+            margin-top: 40px;
+        }
+        .header-main .box-search {
+            position: relative;
+            margin: 3px 0 0 0;
+        }
+        .header-main .box-search {
+            position: relative;
+            margin: auto;
+            width: 96%;
+        }
+        .header-top {
+            display: none;
+        }
+      .col-md-3.box-information {
+            display: none;
+        }
+        .col-md-3.logo {
+            height: 100px;
+        }
+        .list-city{
+              margin-top: 20px;
+        }
+        /**tin-tuc**/
+        .box-title h2:after {
+            
+            left: 35%;
+        }
+
+}
